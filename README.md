@@ -64,6 +64,7 @@ ________________________________________
     1. Open the file at `src/main/resources/application.properties`
     2. Update it with the following:
     # MySQL Database Configuration
+   ```sql
       spring.datasource.url=jdbc:mysql://localhost:3306/resumedb
       spring.datasource.username=root
       spring.datasource.password=
@@ -79,7 +80,7 @@ ________________________________________
       azure.api.key=YOUR_AZURE_API_KEY
 
 
-4. 📥 Clone the Repository
+5. 📥 Clone the Repository
     1. Open your terminal and run:
        ```bash
        git clone https://github.com/yourusername/ai-resume-analyzer.git
@@ -87,7 +88,7 @@ ________________________________________
        ```
 
 
-5. 📦 Build and Run the Project
+6. 📦 Build and Run the Project
     1. Use Maven to build and run:
        ```bash
        mvn clean install
@@ -95,7 +96,7 @@ ________________________________________
        ```
     2. Or, run `ResumeAnalyzerApplication.java` directly using IntelliJ IDEA.
 
-6. 🌐 Access the App
+7. 🌐 Access the App
     1. Open your browser and go to:
        ```
        http://localhost:8080/
