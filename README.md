@@ -63,20 +63,21 @@ ________________________________________
 3. 🧠 Configure `application.properties`
     1. Open the file at `src/main/resources/application.properties`
     2. Update it with the following:
-       ```properties
-       spring.datasource.url=jdbc:mysql://localhost:3306/resumedb
-       spring.datasource.username=root
-       spring.datasource.password=
-    
-       spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+    # MySQL Database Configuration
+      spring.datasource.url=jdbc:mysql://localhost:3306/resumedb
+      spring.datasource.username=root
+      spring.datasource.password=
+   
+   # Hibernate Configuration
+      spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+      spring.jpa.hibernate.ddl-auto=update
+      spring.jpa.show-sql=true
 
-    
-       # API Key for AI Integration
-       openai.api.key=YOUR_OPENAI_API_KEY
-       # or for Azure
-       azure.api.key=YOUR_AZURE_API_KEY
+      # API Key for AI Integration
+      openai.api.key=YOUR_OPENAI_API_KEY
+      # or for Azure
+      azure.api.key=YOUR_AZURE_API_KEY
+
 
 4. 📥 Clone the Repository
     1. Open your terminal and run:
