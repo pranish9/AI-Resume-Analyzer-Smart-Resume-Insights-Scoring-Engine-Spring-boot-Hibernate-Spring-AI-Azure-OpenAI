@@ -83,8 +83,8 @@ ________________________________________
 5. 📥 Clone the Repository
     1. Open your terminal and run:
        ```bash
-       git clone https://github.com/yourusername/ai-resume-analyzer.git
-       cd ai-resume-analyzer
+       git clone https://github.com/pranish9/AI-Resume-Analyzer-Smart-Resume-Insights-Scoring-Engine-Spring-boot-Hibernate-Spring-AI-Azure-OpenAI.git
+       
        ```
 
 
